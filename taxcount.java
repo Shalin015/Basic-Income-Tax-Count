@@ -6,8 +6,8 @@ class taxcount
 	public static void main(String ar[])
 	{
 		System.out.println("Enter your annual income : ");
-		Scanner sc = new Scanner(System.in); // take income from user 
-		double income = sc.nextDouble();
+		Scanner sc = new Scanner(System.in); 
+		double income = sc.nextDouble(); // take income from user
 		double ttax = 0, cess = 0, perc = 0, tax = 0; // ttax = total tax, cess = cess tax count, perc = percentage tax on income, tax = without cess tax
 		if(income <= 250000) // if income is less then 2.5lac
 		{
